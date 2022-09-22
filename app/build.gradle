@@ -23,6 +23,20 @@ android {
         }
     }
 
+    flavorDimensions "monetization"
+    productFlavors {
+        free {
+            dimension "monetization"
+            applicationIdSuffix ".free"
+            versionNameSuffix "-free"
+        }
+        pro {
+            dimension "monetization"
+            applicationIdSuffix ".pro"
+            versionNameSuffix "-pro"
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
