@@ -3,8 +3,6 @@ package com.princeoprince.hydrateme.view
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
-import com.google.android.material.snackbar.Snackbar
 import com.princeoprince.hydrateme.R
 import com.princeoprince.hydrateme.databinding.ActivityCreateEntryBinding
 
